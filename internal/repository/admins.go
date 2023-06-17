@@ -1,10 +1,11 @@
 package repository
 
 import (
-	"admin/internal/domain"
 	"context"
 	"database/sql"
 	"errors"
+
+	"github.com/begenov/admin-service/internal/domain"
 )
 
 type DB interface {

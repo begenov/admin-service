@@ -1,9 +1,10 @@
 package v1
 
 import (
-	"admin/internal/service"
-	"admin/pkg/auth"
 	"log"
+
+	"github.com/begenov/admin-service/internal/service"
+	"github.com/begenov/admin-service/pkg/auth"
 
 	"github.com/gin-gonic/gin"
 )

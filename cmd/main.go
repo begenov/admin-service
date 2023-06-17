@@ -1,21 +1,23 @@
 package main
 
 import (
-	"admin/internal/config"
-	delivery "admin/internal/delivery/http"
-	"admin/internal/repository"
-	"admin/internal/server"
-	"admin/internal/service"
-	"admin/pkg/auth"
-	"admin/pkg/database"
-	"admin/pkg/hash"
-	"admin/pkg/kafka"
+	"github.com/begenov/admin-service/internal/config"
+	delivery "github.com/begenov/admin-service/internal/delivery/http"
+
 	"context"
 	"errors"
 	"log"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/begenov/admin-service/internal/repository"
+	"github.com/begenov/admin-service/internal/server"
+	"github.com/begenov/admin-service/internal/service"
+	"github.com/begenov/admin-service/pkg/auth"
+	"github.com/begenov/admin-service/pkg/database"
+	"github.com/begenov/admin-service/pkg/hash"
+	"github.com/begenov/admin-service/pkg/kafka"
 )
 
 const (

@@ -1,14 +1,16 @@
 package v1
 
 import (
-	"admin/internal/domain"
 	"bytes"
 	"encoding/json"
 	"io"
 
-	admin "admin/pkg/admin/api/proto"
+	"github.com/begenov/admin-service/internal/domain"
+
 	"log"
 	"net/http"
+
+	admin "github.com/begenov/admin-service/pkg/admin/api/proto"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/protobuf/proto"

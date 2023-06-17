@@ -1,14 +1,15 @@
 package service
 
 import (
-	"admin/internal/domain"
-	"admin/internal/repository"
-	"admin/pkg/auth"
-	"admin/pkg/hash"
 	"context"
 	"fmt"
 	"strconv"
 	"time"
+
+	"github.com/begenov/admin-service/internal/domain"
+	"github.com/begenov/admin-service/internal/repository"
+	"github.com/begenov/admin-service/pkg/auth"
+	"github.com/begenov/admin-service/pkg/hash"
 )
 
 type AdminService struct {

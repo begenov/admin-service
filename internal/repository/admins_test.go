@@ -2,12 +2,13 @@ package repository
 
 import (
 	"admin/internal/domain"
-	"admin/pkg/auth"
 	"context"
 	"database/sql"
 	"errors"
 	"testing"
 	"time"
+
+	"github.com/begenov/admin-service/pkg/auth"
 )
 
 type MockDB struct {

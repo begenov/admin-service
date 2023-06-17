@@ -1,9 +1,10 @@
 package repository
 
 import (
-	"admin/internal/domain"
 	"context"
 	"database/sql"
+
+	"github.com/begenov/admin-service/internal/domain"
 )
 
 //go:generate mockgen -source=repository.go -destination=mocks/mock.go

@@ -1,11 +1,12 @@
 package repository
 
 import (
-	"admin/internal/config"
 	"database/sql"
 	"log"
 	"os"
 	"testing"
+
+	"github.com/begenov/admin-service/internal/config"
 
 	_ "github.com/lib/pq"
 )

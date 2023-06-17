@@ -5,7 +5,7 @@
 package mock_repository
 
 import (
-	domain "admin/internal/domain"
+	domain "github.com/begenov/admin-service/internal/domain"
 	context "context"
 	reflect "reflect"
 

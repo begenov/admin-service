@@ -1,8 +1,9 @@
 package service
 
 import (
-	"admin/pkg/kafka"
 	"log"
+
+	"github.com/begenov/admin-service/pkg/kafka"
 )
 
 type KafkaService struct {

@@ -1,9 +1,10 @@
 package server
 
 import (
-	"admin/internal/config"
 	"context"
 	"net/http"
+
+	"github.com/begenov/admin-service/internal/config"
 )
 
 type Server struct {

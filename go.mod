@@ -1,4 +1,4 @@
-module admin
+module github.com/begenov/admin-service
 
 go 1.20
 

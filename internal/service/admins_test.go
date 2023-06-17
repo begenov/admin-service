@@ -1,13 +1,15 @@
 package service
 
 import (
-	"admin/internal/domain"
-	repoMock "admin/internal/repository/mocks"
-	"admin/pkg/auth"
-	"admin/pkg/hash"
 	"context"
 	"testing"
 	"time"
+
+	"github.com/begenov/admin-service/internal/domain"
+	"github.com/begenov/admin-service/pkg/auth"
+	"github.com/begenov/admin-service/pkg/hash"
+
+	repoMock "github.com/begenov/admin-service/internal/repository/mocks"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
